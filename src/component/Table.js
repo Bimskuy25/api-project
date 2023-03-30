@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-const Anjing = () => {
+const StandingRace = () => {
 
     const [products, setProducts] = useState([]);
 
@@ -34,7 +34,7 @@ const Anjing = () => {
     )
 };
 
-export default Anjing;
+export default StandingRace;
 
 function TableTeam({ products }) {
   return (
