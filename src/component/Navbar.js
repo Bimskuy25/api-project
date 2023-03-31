@@ -7,10 +7,11 @@ function NavbarTest() {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Navbar.Brand>
+                    <img className="navbar-logo" src="/assets/img/F1.png" alt=""></img>
+                </Navbar.Brand>
                     <Nav className="mx-auto justify-content-center">
-                        <Nav.Link href="#home">Premiere League</Nav.Link>
-                        <Nav.Link href="#features">La Liga</Nav.Link>
+                        <Nav.Link href="#home">F1 2020 Standings</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
